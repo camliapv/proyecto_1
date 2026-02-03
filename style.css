@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(165, 194, 231);
+}
+header{
+    background-color: rgb(190, 190, 230);
+}
+footer{
+    background-color: rgb(208, 208, 232);
+}
+img{
+    width: 360px;
+    height: 300px;
+}
+ #container1 {
+    background-color: aquamarine;
+ 
+}
+ .container2{
+    background-color: rgb(87, 43, 220);
+ }
