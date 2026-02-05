@@ -1,20 +1,62 @@
 body {
-    background-color: rgb(165, 194, 231);
+    background-color: rgb(167, 186, 211);
 }
 header{
-    background-color: rgb(190, 190, 230);
+    background-color: rgb(84, 128, 237);
+    text-align: center;
+    font-size: large;
+    border: 1px solid black;
+  margin-top: 90px;
+  margin-bottom: 70px;
+  margin-right: 70px;
+  margin-left: 70px;
+} 
+nav {
+  background-color: rgb(166, 214, 252);
+  padding: 10px;
+  text-align: center;
 }
 footer{
-    background-color: rgb(208, 208, 232);
+    background-color: rgb(84, 128, 237);
+    margin-top: 100px;
+  margin-bottom: 70px;
+    border: 2px solid black;
 }
+
 img{
-    width: 360px;
-    height: 300px;
+    width: 370px;
+    height: 310px;
+    
 }
  #container1 {
-    background-color: aquamarine;
- 
+    margin-right: 90px;
+  margin-left: 70px;
+  margin-bottom: 70px;
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif; 
+  
+
 }
  .container2{
-    background-color: rgb(87, 43, 220);
+    background-color: rgb(86, 132, 246)
  }
+ 
+ #container3 {
+    display: flex;       
+    flex-wrap: wrap;    
+    justify-content: center; 
+    gap: 20px;          
+    text-align: center; 
+    background-color: rgb(188, 219, 233);
+}
+
+#container3 img {
+    width: 260px;       
+    height: 250px;      
+    margin-top: 8px;
+   font-weight: bold;
+   
+}
+li {
+  list-style: none;
+}
